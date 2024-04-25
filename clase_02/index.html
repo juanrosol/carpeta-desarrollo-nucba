@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header es lo que arriba va un logo y la barra de navegacion -->
+    <header>
+      <img src="https://via.placeholder.com/50" />
+      <!-- barra de navegacion -->
+      <nav>
+        <ul>
+          <li>
+            <a href="./tablas/">Ver las tablas</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- contenido principal de la pagina se utiliza la etiqueta main  -->
+    <main>
+      <!-- seccion 1 -->
+      <section>
+        <h1>HOLA</h1>
+        <p>bienvenidos a mi pagina web</p>
+        <a href="#">contactame</a>
+      </section>
+      <img
+        src="https://images.ecestaticos.com/7gfV8PUYa5Fkv4g00l9IrPbpOZI=/115x0:2001x1410/600x450/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4a4%2Fab7%2F874%2F4a4ab78742743f3a85916eeee191cc18.jpg"
+        alt="avion"
+      />
+      <!-- seccion 2 -->
+      <section>
+        <h2>Mis servicios</h2>
+        <!-- servicio 1 -->
+        <div>
+          <h3>Paginas web</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero,
+            ipsam! Voluptatum vero totam cum perferendis.
+          </p>
+          <a href="#">ver mas </a>
+        </div>
+        <!-- servicio 2 -->
+        <div>
+          <h3>seo</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, voluptatum!
+          </p>
+          <a href="#">ver mas</a>
+        </div>
+      </section>
+      <!-- seccion 3 "formularioss"-->
+      <section>
+        <h2>Contactos</h2>
+        <form>
+          <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email@gmail.com" />
+          </div>
+          <div>
+            <label for="edad">Edad</label>
+            <input type="number" id="edad" placeholder="18" min="0" max="99" />
+          </div>
+          <div>
+            <label for="pass">Contraseña</label>
+            <input type="password" id="pass" placeholder="7gfV8PUYa5Fkv" />
+          </div>
+          <div>
+            <input type="checkbox" id="terminos" required />
+            <label for="terminos"
+              >Acepto los terminos y condiciones<a href="#"
+                >Ver terminos</a
+              ></label
+            >
+          </div>
+          <div>
+            <p>Gustos de helado favoritos</p>
+            <div>
+              <input type="radio" id="chocolate" name="gustos" />
+              <label for="chocolate">Chocolate</label>
+            </div>
+            <div>
+              <input type="radio" id="menta" name="gustos" />
+              <label for="menta">Menta granizada</label>
+            </div>
+            <div>
+              <input type="radio" id="frutilla" name="gustos" />
+              <label for="frutilla">Frutilla</label>
+            </div>
+            <div>
+              <input type="radio" id="mentagrana" name="gustos" />
+              <label for="mentagrana">Menta granizada si o no??????</label>
+            </div>
+            <div>
+              <label for="juego">Jugar</label>
+              <select name="juego" id="juego">
+                <option value="piedra">Piedra</option>
+                <option value="papel">Papel</option>
+                <option value="tijera">Tijera</option>
+              </select>
+            </div>
+            <div>
+              <label for="mensaje">Mensaje:</label>
+              <br />
+              <textarea
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Deja tu mensaje"
+              ></textarea>
+            </div>
+            <div>
+              <label for="telefono">Telefono</label>
+              <input type="tel" id="telefono" placeholder="01153405630" />
+            </div>
+          </div>
+
+          <!-- colocamos un boton para el formulario -->
+          <!-- <button>Enviar</button> -->
+          <input type="submit" value="mandar formulario" />
+        </form>
+      </section>
+    </main>
+    <!-- pie de pagina -->
+    <footer>
+      <p>este es mi pie de pagina</p>
+      <ul>
+        <li><a href="#">facebook</a></li>
+        <li><a href="#">linkedin</a></li>
+        <li><a href="#">instagram</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
